@@ -1,0 +1,141 @@
+.Nav{
+    background-image: url("images/cala-w6ftFbPCs9I-unsplash.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+    position: relative;
+}
+.shade{
+    background-color:rgba(0,0,0,0.4);
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box{
+    padding:10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.box-2{
+    height:30px;
+    display: flex;
+    justify-content:space-between;
+}
+.left{
+    font-size:25px;
+    color:white;
+}
+.fullstop{
+    color:red;
+}
+.right-items{
+    display: flex;
+    justify-content:space-around;
+}
+.button{
+    height:40px;
+    width:120px;
+    border-radius:25px;
+    background-color:rgb(255,82,0);
+    border-style: none;
+    color:white;
+    font-weight: 500;
+}
+.fa-list{
+    color:white;
+    font-size:30px;
+    padding-left:20px;
+    padding-top: 5px;
+}
+.nav-middle-c{
+    margin-top:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.nav-middle-c h5{
+    font-size:15px;
+    text-align:center;
+}
+.nav-middle-c h1{
+    font-size:50px;
+    text-align:center;
+    margin-bottom: 40px;
+}
+.nav-middle-c p{
+    text-align:center;
+    line-height: 30px;
+    margin-bottom:30px;
+}
+.nav-middle-c p a{
+    text-decoration:underline;
+    text-decoration-color: orange;
+    color:white;
+}
+.nav-end-icons{
+    margin-top: 130px;
+    display: flex;
+    justify-content:flex-end;
+}
+.ico{
+    height:50px;
+    width:50px;
+    font-size:30px;
+    background-color:white;
+    border-radius: 50%;
+    padding:12px;
+    margin: 5px;
+    color: orangered;
+}
+.mid{
+    background-color:rgb(254,226,179);
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:60px;
+}
+.mid-c{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom:25px;
+}
+.mid-c-left i{
+    font-size:35px;
+    color: aliceblue;
+    background-color:orangered;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    padding: 14px;
+}
+.mid-c-right{
+    width:60vw;
+}
+.form-input{
+    border-style: none;
+    border: black solid 1px;
+    background-color:rgb(254,226,179);
+    height:50px;
+    margin-bottom: 20px;
+}
+.big{
+    width:88vw;
+    height:150px;
+}
+.footer{
+    background-color:hsl(209,29%,55%);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:30px;
+    color:white;
+}
+.footer p{
+    margin-top:10px;
+    font-size:15px;
+    color:white;
+}
